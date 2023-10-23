@@ -3,7 +3,7 @@
 <head>
   <title>Contador de Palavras e Caracteres</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
@@ -13,13 +13,19 @@
     </div>
     <div class="row">
       <div class="col">
-        <p>Palavras: <span id="word-count">0</span></p>
+        <p class="count-label">Palavras:</p>
+        <p><span id="word-count">0</span></p>
       </div>
       <div class="col">
-        <p>Caracteres: <span id="char-count">0</span></p>
+        <p class="count-label">Caracteres:</p>
+        <p><span id="char-count">0</span></p>
+      </div>
+      <div class="col">
+        <p class="count-label">Caracteres em Branco:</p>
+        <p><span id="whitespace-count">0</span></p>
       </div>
     </div>
-    <div class="mt-4">
+    <div class="btn-group">
       <button id="count-words-btn" class="btn btn-primary mr-2">Contar Palavras</button>
       <button id="count-chars-btn" class="btn btn-primary mr-2">Contar Caracteres</button>
       <button id="clear-btn" class="btn btn-danger">Limpar</button>
