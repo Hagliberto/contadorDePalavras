@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  div {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
