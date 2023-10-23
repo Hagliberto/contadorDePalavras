@@ -1,15 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
   
-  textarea {
+  .form-group {
     width: 100%;
+    margin-bottom: 20px;
   }
   
-  div {
-    margin-top: 10px;
+  .row {
+    margin-bottom: 20px;
   }
   
-  p {
-    margin: 5px 0;
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .count-label {
+    margin-bottom: 4px;
+  }
+  
+  .btn-group {
+    margin-top: 20px;
   }
