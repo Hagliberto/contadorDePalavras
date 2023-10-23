@@ -2,16 +2,25 @@
 <html>
 <head>
   <title>Contador de Palavras e Caracteres</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Contador de Palavras e Caracteres</h1>
-  <textarea id="text-input" rows="10" cols="50"></textarea>
-  <div>
-    <p>Palavras: <span id="word-count">0</span></p>
-    <p>Caracteres: <span id="char-count">0</span></p>
+  <div class="container">
+    <h1 class="mt-4">Contador de Palavras e Caracteres</h1>
+    <div class="form-group">
+      <textarea id="text-input" class="form-control" rows="10"></textarea>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p>Palavras: <span id="word-count">0</span></p>
+      </div>
+      <div class="col">
+        <p>Caracteres: <span id="char-count">0</span></p>
+      </div>
+    </div>
   </div>
-  
+
   <script src="script.js"></script>
 </body>
 </html>
