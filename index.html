@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contador de Palavras e Caracteres</title>
-        <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon"type="image/x-icon"href="word.png">
-    </head>
-    <body>
-        <div class="container text-center">
-            <h1 class="title">Contador de Palavras e Caracteres</h1>
-            <div class="form-group">
-                <textarea id="text-input" class="form-control" rows="10" placeholder="Digite suas palavras..."></textarea>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Palavras e Caracteres</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="word.png">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="title">Contador de Palavras e Caracteres</h1>
+        <div class="form-group">
+            <textarea id="text-input" class="form-control" rows="10" placeholder="Digite suas palavras..."></textarea>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="count-label">Palavras:</p>
+                <p><span id="word-count">0</span></p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <p class="count-label">Palavras:</p>
-                    <p><span id="word-count">0</span></p>
-                </div>
-                <div class="col">
-                    <p class="count-label">Caracteres:</p>
-                    <p><span id="char-count">0</span></p>
-                </div>
-                <div class="col">
-                    <p class="count-label">Caracteres em Branco:</p>
-                    <p><span id="whitespace-count">0</span></p>
-                </div>
+            <div class="col">
+                <p class="count-label">Caracteres:</p>
+                <p><span id="char-count">0</span></p>
             </div>
-
-            <div class="buttons">
-                <button id="count-words-btn" class="btn btn-primary">Contar Palavras</button>
-                <button id="count-chars-btn" class="btn btn-secondary">Contar Caracteres</button>
-                <button id="clear-btn" class="btn btn-warning">Limpar</button>
-            </div>
-
-            <div id="chart-container">
-                <canvas id="chart"></canvas>
+            <div class="col">
+                <p class="count-label">Caracteres em Branco:</p>
+                <p><span id="whitespace-count">0</span></p>
             </div>
         </div>
 
-        <audio src="/lofi-study-112191.mp3" autoplay loop></audio>
+        <div class="buttons">
+            <button id="count-words-btn" class="btn btn-primary">Contar Palavras</button>
+            <button id="count-chars-btn" class="btn btn-secondary">Contar Caracteres</button>
+            <button id="clear-btn" class="btn btn-warning">Limpar</button>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="script.js"></script>
-    </body>
+        <div id="chart-container">
+            <canvas id="chart"></canvas>
+        </div>
+
+        <div class="iframe-container">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6FLwmdmW77N1Pxb1aWsZmO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
