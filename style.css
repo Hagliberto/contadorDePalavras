@@ -6,6 +6,30 @@
     height: 100vh;
   }
   
+  .title {
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  #chart-container {
+    width: 20%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
   .form-group {
     width: 100%;
     margin-bottom: 20px;
