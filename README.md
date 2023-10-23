@@ -1,5 +1,7 @@
 # Contador de Palavras e Caracteres
 
+https://hagliberto.github.io/contadorDePalavras/
+
 O "Contador de Palavras e Caracteres" é um site simples e útil que permite contar o número de palavras, caracteres e caracteres em branco em um texto inserido. É uma ferramenta conveniente para ajudar na análise e contagem de palavras em um texto.
 
 ## Funcionalidades
